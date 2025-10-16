@@ -8,7 +8,7 @@ int square(int x) {
 int cube(int x) {
 	return (x*x)*x;
 }
-
+//Here is a comment
 int main(void) {
 	int s, c;
     cout << "Enter a number to be squared: ";
@@ -19,4 +19,5 @@ int main(void) {
 	cout << "The cube of " << c << " is " << cube(c) << endl;
     return 0;
 }
+
 
